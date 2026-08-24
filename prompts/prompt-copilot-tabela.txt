@@ -1,0 +1,23 @@
+Criar uma tabela utilizando a linguagem SQL para o sistema gerenciador de banco de dados
+MySQL.
+
+Evento de cartas no Clash of Clans, onde é necessário juntar 60 cartas diferentes para conseguir
+recompensas.
+
+Preciso de uma coluna para o ID que seja auto-incrementada
+Preciso de uma coluna para o nome da carta
+Preciso de uma coluna para o tipo da carta
+Preciso de uma coluna para a quantidade de cartas
+
+
+Resposta do Microsoft Copilot:
+
+CREATE TABLE EventoCartas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_carta VARCHAR(100) NOT NULL,
+    tipo_carta VARCHAR(50) NOT NULL,
+    quantidade INT NOT NULL
+);
+
+Observação: Eu poderia ter passado o nome da tabela antes de indicar as colunas
+que seriam necessárias para compor a tabela.
