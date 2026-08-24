@@ -1,0 +1,1 @@
+- Nota: As imagens contidas na pasta assets pertencem à Supercell (Clash of Clans) e são utilizadas exclusivamente para fins educacionais e de portfólio, em conformidade com a política de conteúdo de fãs da empresa.

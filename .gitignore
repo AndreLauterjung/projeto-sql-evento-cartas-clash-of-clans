@@ -1,0 +1,8 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários de IDEs ou editores (como DBeaver ou VS Code)
+.vscode/
+*.log
