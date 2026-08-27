@@ -1,5 +1,10 @@
 USE cartas_clash_of_clans_db;
 
+-- Inserindo valores na tabela contas
+INSERT INTO contas (nome_conta) VALUES
+	('conta_primaria'),
+	('conta_secundaria');
+
 -- Inserindo valores na tabela cartas
 INSERT INTO cartas (nome_carta, tipo_carta) VALUES
 ('Arqueira_Sorrateira', 'Base_Do_Construtor'),
