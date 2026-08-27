@@ -8,6 +8,11 @@ CREATE TABLE IF NOT EXISTS cartas (
 	tipo_carta VARCHAR(100) NOT NULL
 );
 
+-- Tabela para organizar as contas
+CREATE TABLE IF NOT EXISTS contas (
+	id_conta INT AUTO_INCREMENT PRIMARY KEY,
+	nome_conta VARCHAR(100) NOT NULL
+);
 
 -- Alterei o nome da tabela para ficar mais fácil de compreender nas consultas.
 CREATE TABLE IF NOT EXISTS cartas_conta_primaria (
