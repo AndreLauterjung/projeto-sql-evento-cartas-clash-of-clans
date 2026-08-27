@@ -127,3 +127,22 @@ INSERT INTO cartas_conta_secundaria (nome_carta, tipo_carta, quantidade) VALUES
 ('Supermineiro', 'Supertropa', 1),
 ('Superservo', 'Supertropa', 3),
 ('Supervalquiria', 'Supertropa', 1);
+
+
+-- Atualizando quantidade de cartas da conta primária (26/08/2026): 
+
+UPDATE cartas_conta_primaria
+SET quantidade = 4
+WHERE nome_carta = 'Bebe_Dragao' AND tipo_carta = 'Elixir';
+
+UPDATE cartas_conta_primaria
+SET quantidade = 3
+WHERE nome_carta = 'Fornalha' AND tipo_carta = 'Elixir_Negro';
+
+UPDATE cartas_conta_primaria
+SET quantidade = 2
+WHERE nome_carta = 'Lancador' AND tipo_carta = 'Elixir_Negro';
+
+UPDATE cartas_conta_primaria
+SET quantidade = 2
+WHERE nome_carta = 'Valquiria' AND tipo_carta = 'Elixir_Negro';
