@@ -242,3 +242,21 @@ WHERE nome_carta = 'Superarqueira' AND tipo_carta = 'Supertropa';
 UPDATE cartas_conta_secundaria
 SET quantidade = 2
 WHERE nome_carta = 'Superbruxa' AND tipo_carta = 'Supertropa';
+
+
+-- Atualiza nome da carta "Bebe_Dragao" para evitar possíveis erros nas consultas
+UPDATE cartas_conta_primaria
+SET nome_carta = 'Bebe_Dragao_I'
+WHERE nome_carta = 'Bebe_Dragao' AND tipo_carta = 'Elixir';
+
+UPDATE cartas_conta_secundaria
+SET nome_carta = 'Bebe_Dragao_I'
+WHERE nome_carta = 'Bebe_Dragao' AND tipo_carta = 'Elixir';
+
+UPDATE cartas_conta_primaria
+SET nome_carta = 'Bebe_Dragao_II'
+WHERE nome_carta = 'Bebe_Dragao' AND tipo_carta = 'Base_Do_Construtor';
+
+UPDATE cartas_conta_secundaria
+SET nome_carta = 'Bebe_Dragao_II'
+WHERE nome_carta = 'Bebe_Dragao' AND tipo_carta = 'Base_Do_Construtor';
