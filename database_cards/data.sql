@@ -146,3 +146,30 @@ WHERE nome_carta = 'Lancador' AND tipo_carta = 'Elixir_Negro';
 UPDATE cartas_conta_primaria
 SET quantidade = 2
 WHERE nome_carta = 'Valquiria' AND tipo_carta = 'Elixir_Negro';
+
+
+
+-- Atualizando quantidade de cartas da conta secundária (26/08/2026): 
+UPDATE cartas_conta_secundaria
+SET quantidade = 2
+WHERE nome_carta = 'Ciclope' AND tipo_carta = 'Elixir';
+
+UPDATE cartas_conta_secundaria
+SET quantidade = 3
+WHERE nome_carta = 'Dragao_Dirigivel' AND tipo_carta = 'Elixir';
+
+UPDATE cartas_conta_secundaria
+SET quantidade = 1
+WHERE nome_carta = 'Poderosa_Hera' AND tipo_carta = 'Elixir';
+
+UPDATE cartas_conta_secundaria
+SET quantidade = 3
+WHERE nome_carta = 'Corredor' AND tipo_carta = 'Elixir_Negro';
+
+UPDATE cartas_conta_secundaria
+SET quantidade = 2
+WHERE nome_carta = 'Superarqueira' AND tipo_carta = 'Supertropa';
+
+UPDATE cartas_conta_secundaria
+SET quantidade = 2
+WHERE nome_carta = 'Superbruxa' AND tipo_carta = 'Supertropa';
