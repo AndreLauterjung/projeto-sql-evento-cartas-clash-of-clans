@@ -1,9 +1,9 @@
 USE cartas_clash_of_clans_db;
 
--- Ver tabela 'cartas_conta_primaria'
+-- Comandos para visualizar as tabelas individualmente
+SELECT * FROM contas;
+SELECT * FROM cartas;
 SELECT * FROM cartas_conta_primaria;
-
--- Ver tabela 'cartas_conta_secundaria'
 SELECT * FROM cartas_conta_secundaria;
 
 
