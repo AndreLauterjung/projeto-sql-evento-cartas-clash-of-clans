@@ -2,6 +2,13 @@ CREATE DATABASE IF NOT EXISTS cartas_clash_of_clans_db;
 
 USE cartas_clash_of_clans_db;
 
+-- Tabela para organizar as cartas
+CREATE TABLE IF NOT EXISTS cartas (
+	nome_carta VARCHAR(100) NOT NULL PRIMARY KEY,
+	tipo_carta VARCHAR(100) NOT NULL
+);
+
+
 -- Alterei o nome da tabela para ficar mais fácil de compreender nas consultas.
 CREATE TABLE IF NOT EXISTS cartas_conta_primaria (
     id INT AUTO_INCREMENT PRIMARY KEY,
