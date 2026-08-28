@@ -13,7 +13,7 @@ SELECT
 	cartas_conta_primaria.*,
 	cartas_conta_secundaria.quantidade AS 'Qtd. Secundária'
 FROM cartas_conta_primaria
-INNER JOIN cartas_conta_secundaria ON cartas_conta_primaria.id = cartas_conta_secundaria.id
+INNER JOIN cartas_conta_secundaria ON cartas_conta_primaria.nome_carta = cartas_conta_secundaria.nome_carta
 WHERE cartas_conta_primaria.quantidade > 1 AND cartas_conta_secundaria.quantidade = 0;
 
 -- Observação: para doar cartas para outro jogador, é necessário ter 
