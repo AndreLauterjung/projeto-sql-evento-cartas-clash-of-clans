@@ -40,3 +40,10 @@ FROM cartas_conta_primaria;
 SELECT 
     SUM(quantidade) AS 'Total_Geral_Cartas'
 FROM cartas_conta_secundaria;
+
+
+-- Saber o total de cartas que cada tipo possui
+SELECT tipo_carta,
+	COUNT(*)
+FROM cartas
+GROUP BY tipo_carta;
